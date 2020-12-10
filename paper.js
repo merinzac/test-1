@@ -17,8 +17,8 @@ display(){
     fill("red");
     noStroke()
     translate(pos.x,pos.y)
-    ellipseMode(CENTER)
-    ellipse(0,0,this.r,this.r);
+    imageMode(CENTER)
+   image(0,0,this.r,this.r);
     pop()
 }
 }
